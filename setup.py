@@ -3,7 +3,7 @@ from setuptools import find_packages, setup
 REQUIREMENT_FILE_NAME="requirements.txt"
 HYPHEN_E_DOT = "-e ."
 
-def get_requirements()->List[str]:
+def get_requirements():
     
     with open(REQUIREMENT_FILE_NAME) as requirement_file:
         requirement_list = requirement_file.readlines()
